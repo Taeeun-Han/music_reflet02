@@ -11,6 +11,7 @@ body {
 	line-height: 1.4;
 	background-color: #011733;
 	width: 390px;
+	height: 1000px;
 }
 
 a {
@@ -24,6 +25,7 @@ img {
 .inner {
 	margin: 0 auto;
 	position: relative;
+	padding: 20px 10px 0px 10px;
 }
 
 .section01 {
@@ -34,9 +36,6 @@ img {
 	//border: 1px solid gold;
 
 	.inner {
-		//border: 2px solid red;
-		padding: 20px 10px 0px 10px;
-
 		.logo {
 			//border: 1px solid green;
 
@@ -74,5 +73,72 @@ img {
 	background-color: #feb961;
 	margin: 0 auto;
 	box-shadow: 0px 0px 10px 1px #feb961;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
+}
+
+.section02 {
+	//border: 1px solid yellow;
+
+	.inner {
+		//border: 1px solid red;
+		padding: 20px 55px;
+
+		.p_title {
+			//border: 1px solid green;
+			font: 500 18px/1.5 "맑은 고딕";
+			color: #fff;
+			text-align: left;
+			font-family: "Gowun Dodum", sans-serif;
+
+			span {
+				font-family: "Spectral", serif;
+				font-size: 30px;
+				color: #d4af37;
+			}
+
+			.span2 {
+				font-family: "Spectral", serif;
+				font-size: 30px;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.bar {
+	border: 1px solid #bbb;
+	width: 85%;
+	margin: 0 auto;
+	opacity: 0.5;
+}
+
+.section03 {
+	//border: 1px solid yellow;
+
+	.inner {
+		//border: 1px solid red;
+		padding: 30px;
+
+		p {
+			//border: 1px solid green;
+			color: #fff;
+			font-family: "Spectral", serif;
+			font-size: 18px;
+			line-height: 30px;
+			text-align: left;
+
+			.date {
+				font-family: "Gowun Dodum", sans-serif;
+				font-size: 15px;
+				margin-left: 5px;
+			}
+
+			.location {
+				font-family: "Gowun Dodum", sans-serif;
+				font-size: 15px;
+				margin-left: 5px;
+
+			}
+		}
+	}
 }
